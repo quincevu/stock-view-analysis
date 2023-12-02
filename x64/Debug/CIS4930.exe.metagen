@@ -1,0 +1,173 @@
+  CIS4930.DojiChart.resources - Embedded, ContainedInManifestFile, 
+  CIS4930.Form2.resources - Embedded, ContainedInManifestFile, 
+  CIS4930.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CIS4930, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC.STLCLR, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class CIS4930.candleStick: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.DateTime, Double, Double, Double, Double, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean blackMarubozu 'get set' : 
+    Boolean whiteMarubozu 'get set' : 
+    Boolean marubozu 'get set' : 
+    Boolean bearishInvertedHammer 'get set' : 
+    Boolean bullishInvertedHammer 'get set' : 
+    Boolean invertedHammer 'get set' : 
+    Boolean bearishHammer 'get set' : 
+    Boolean bullishHammer 'get set' : 
+    Boolean hammer 'get set' : 
+    Boolean longLeggedDoji 'get set' : 
+    Boolean dragonflyDoji 'get set' : 
+    Boolean neutralDoji 'get set' : 
+    Boolean gravestoneDoji 'get set' : 
+    Boolean commonDoji 'get set' : 
+    Boolean neutral 'get set' : 
+    Boolean bearish 'get set' : 
+    Boolean bullish 'get set' : 
+    Double lowerTail 'get set' : 
+    Double upperTail 'get set' : 
+    Double bottomPrice 'get set' : 
+    Double topPrice 'get set' : 
+    Double range 'get set' : 
+    Double body 'get set' : 
+    System.Data.DataTable Datasource 'get set' : 
+    Int32 Volume 'get set' IsLong : 
+    Double Close 'get set' : 
+    Double Low 'get set' : 
+    Double High 'get set' : 
+    Double Open 'get set' : 
+    System.DateTime Date 'get set' : 
+  Methods:
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    set_Date(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_Open(): PrivateScope, Public, HideBySig, SpecialName
+    set_Open(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_High(): PrivateScope, Public, HideBySig, SpecialName
+    set_High(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Low(): PrivateScope, Public, HideBySig, SpecialName
+    set_Low(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Close(): PrivateScope, Public, HideBySig, SpecialName
+    set_Close(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Volume(): PrivateScope, Public, HideBySig, SpecialName
+    set_Volume(Int32 IsLong): PrivateScope, Public, HideBySig, SpecialName
+    get_Datasource(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Datasource(DataTable): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_body(): PrivateScope, Public, HideBySig, SpecialName
+    set_body(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_range(): PrivateScope, Public, HideBySig, SpecialName
+    set_range(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_topPrice(): PrivateScope, Public, HideBySig, SpecialName
+    set_topPrice(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_bottomPrice(): PrivateScope, Public, HideBySig, SpecialName
+    set_bottomPrice(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_upperTail(): PrivateScope, Public, HideBySig, SpecialName
+    set_upperTail(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_lowerTail(): PrivateScope, Public, HideBySig, SpecialName
+    set_lowerTail(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_bullish(): PrivateScope, Public, HideBySig, SpecialName
+    set_bullish(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_bearish(): PrivateScope, Public, HideBySig, SpecialName
+    set_bearish(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_neutral(): PrivateScope, Public, HideBySig, SpecialName
+    set_neutral(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_commonDoji(): PrivateScope, Public, HideBySig, SpecialName
+    set_commonDoji(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_gravestoneDoji(): PrivateScope, Public, HideBySig, SpecialName
+    set_gravestoneDoji(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_neutralDoji(): PrivateScope, Public, HideBySig, SpecialName
+    set_neutralDoji(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_dragonflyDoji(): PrivateScope, Public, HideBySig, SpecialName
+    set_dragonflyDoji(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_longLeggedDoji(): PrivateScope, Public, HideBySig, SpecialName
+    set_longLeggedDoji(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_hammer(): PrivateScope, Public, HideBySig, SpecialName
+    set_hammer(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_bullishHammer(): PrivateScope, Public, HideBySig, SpecialName
+    set_bullishHammer(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_bearishHammer(): PrivateScope, Public, HideBySig, SpecialName
+    set_bearishHammer(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_invertedHammer(): PrivateScope, Public, HideBySig, SpecialName
+    set_invertedHammer(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_bullishInvertedHammer(): PrivateScope, Public, HideBySig, SpecialName
+    set_bullishInvertedHammer(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_bearishInvertedHammer(): PrivateScope, Public, HideBySig, SpecialName
+    set_bearishInvertedHammer(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_marubozu(): PrivateScope, Public, HideBySig, SpecialName
+    set_marubozu(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_whiteMarubozu(): PrivateScope, Public, HideBySig, SpecialName
+    set_whiteMarubozu(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_blackMarubozu(): PrivateScope, Public, HideBySig, SpecialName
+    set_blackMarubozu(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    computePatterns(): PrivateScope, Public, HideBySig
+    computeProperties(): PrivateScope, Public, HideBySig
+    dojiTest(Double): PrivateScope, Public, HideBySig
+    dragonflyDojiTest(Double, Double): PrivateScope, Public, HideBySig
+    neutralDojiTest(Double): PrivateScope, Public, HideBySig
+    gravestoneDojiTest(Double, Double): PrivateScope, Public, HideBySig
+    longLeggedDojiTest(Double): PrivateScope, Public, HideBySig
+    hammerTest(Double, Double, Double): PrivateScope, Public, HideBySig
+    bullishHammerTest(Double, Double, Double): PrivateScope, Public, HideBySig
+    bearishHammerTest(Double, Double, Double): PrivateScope, Public, HideBySig
+    invertedHammerTest(Double, Double, Double): PrivateScope, Public, HideBySig
+    bullishInvertedHammerTest(Double, Double, Double): PrivateScope, Public, HideBySig
+    bearishInvertedHammerTest(Double, Double, Double): PrivateScope, Public, HideBySig
+    marubozuTest(Double): PrivateScope, Public, HideBySig
+    whiteMarubozuTest(Double): PrivateScope, Public, HideBySig
+    blackMarubozuTest(Double): PrivateScope, Public, HideBySig
+    engulfingBearishTest(): PrivateScope, Public, HideBySig
+    engulfingBullishTest(): PrivateScope, Public, HideBySig
+Class CIS4930.candleStickReader: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ReadCandleStickBois(String, DateTime, DateTime): PrivateScope, Public, HideBySig
+    ReadStock(String, DateTime, DateTime): PrivateScope, Public, HideBySig
+Class CIS4930.aRecognizor: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 patternSize 'get set' : 
+    System.String patternName 'get set' : 
+  Methods:
+    get_patternName(): PrivateScope, Public, HideBySig, SpecialName
+    set_patternName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_patternSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_patternSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    patternMatchedSubset(List`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    recognize(List`1): PrivateScope, Public, HideBySig
+Class CIS4930.Form2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.DataGridView dataGridView1 : Public
+Class CIS4930.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CIS4930.DojiChart: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[CIS4930.aRecognizor] recognizors : Public
+    System.Windows.Forms.DataVisualization.Charting.Chart chart1 : Public
+  Methods:
+    initializeRecognizer(): PrivateScope, Public, HideBySig
+    updateChart(): PrivateScope, Public, HideBySig
+    findMaxHigh(List`1): PrivateScope, Public, HideBySig
+    findMinLow(List`1): PrivateScope, Public, HideBySig
+    chart1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    comboBoxDoji_SelectedIndexChanged(Object, EventArgs): PrivateScope, Public, HideBySig

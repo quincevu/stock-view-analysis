@@ -1,0 +1,6 @@
+﻿  DojiChart.cpp
+  MyForm.cpp
+C:\Users\confi\OneDrive\Documents\Current classes\CIS4930\Project 1\Project 1 QV\CIS4930\CandleStickReader.h(65,37): warning C4244: 'initializing': conversion from '__int64' to 'long', possible loss of data
+  Generating Code...
+  CandleStick.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CIS4930.vcxproj -> C:\Users\confi\OneDrive\Documents\Current classes\CIS4930\Project 1\Project 1 QV\CIS4930\x64\Debug\CIS4930.exe
